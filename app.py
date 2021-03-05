@@ -65,6 +65,13 @@ def save_image(i):
 root = Tk()
 root.geometry('+%d+%d'%(350,10)) #place GUI at x=350, y=10
 
+# set window title
+root.title('PDF Extractor')
+
+# set window icon
+img = PhotoImage(file='pdf-symbol.png')
+root.wm_iconphoto(True, img)
+
 #header area - logo & browse button
 header = Frame(root, width=800, height=175, bg="white")
 header.grid(columnspan=3, rowspan=2, row=0)
@@ -74,7 +81,6 @@ main_content = Frame(root, width=800, height=250, bg="#20bebe")
 main_content.grid(columnspan=3, rowspan=2, row=4)
 
 def open_file():
-
   for i in img_idx:
     img_idx.pop()
   img_idx.append(0)

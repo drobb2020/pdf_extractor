@@ -77,7 +77,7 @@ header = Frame(root, width=800, height=175, bg="white")
 header.grid(columnspan=3, rowspan=2, row=0)
 
 #main content area - text and image extraction
-main_content = Frame(root, width=800, height=250, bg="#20bebe")
+main_content = Frame(root, width=800, height=250, bg="#7700cf")
 main_content.grid(columnspan=3, rowspan=2, row=4)
 
 def open_file():
@@ -148,7 +148,7 @@ instructions.grid(column=2, row=0, sticky=SE, padx=75, pady=5)
 
 #browse button
 browse_text = StringVar()
-browse_btn = Button(root, textvariable=browse_text, command=lambda:open_file(), font=("Raleway",12), bg="#20bebe", fg="white", height=1, width=15)
+browse_btn = Button(root, textvariable=browse_text, command=lambda:open_file(), font=("Raleway",12), bg="#7700cf", fg="white", height=1, width=15)
 browse_text.set("Browse")
 browse_btn.grid(column=2, row=1, sticky=NE, padx=50)
 

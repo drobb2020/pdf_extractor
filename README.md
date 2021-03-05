@@ -11,3 +11,7 @@ You can find the original starting files for the project on github:
 [Part 1 Starter Files](https://github.com/MariyaSha/PDFextract_text/tree/main/starterFiles)
 
 [Part 2 Starter Files](https://github.com/MariyaSha/PDFExtract/tree/main/starterFiles)
+
+## Executable
+
+Created an executable named pdf-extractor.exe. You need the .exe along with the supporting png files and functions.py. You do not need requirements.txt or the .gitignore file
